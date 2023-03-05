@@ -110,19 +110,20 @@ proper segregation of genetic material during mitosis
 \begin_layout Standard
 Many of these safeguards are ancient in origin and can be observed in primitive
  organisms such as yeast.
- Others are more Different rates for cells, the cell cycle is highly controlled:
-\end_layout
+ There also exist checks which have evolved especially in organisms with
+ more complex tissues differentiation.
+ Many of these checkpoints have significant impact on tumor suppression
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "barnum_cell_2014"
+literal "false"
 
-\begin_layout Itemize
-skin -> high
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-neurons -> low
-\end_layout
-
-\begin_layout Itemize
-red blood doesn't ever
+.
+ Additional exploration here is both interesting and could worth while but
+ remains beyond the scope of this document.
 \end_layout
 
 \begin_layout Standard
@@ -151,24 +152,32 @@ There are also genes that act as tumor suppressors, these are often recessive
 \end_layout
 
 \begin_layout Subsection
-Example: Gene p53
+Gene p53
 \end_layout
 
 \begin_layout Standard
-Gene which codes for a protein that acts as a transcriptionial regulator
- that attaches DNA and turns genes on.
- It plays roles in tumor suppression, DNA damage repair, triggers cell division
- and initiating cell growth.
+Gene p53 which codes for a protein that acts as a transcription regulator
+ that attaches to DNA and turns gene expression on.
+ It plays a role in tumor suppression, DNA damage repair, triggers cell
+ division and initiating cell growth 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lu_9_2012"
+literal "false"
+
+\end_inset
+
+.
  
 \end_layout
 
 \begin_layout Standard
 The amino acids located at the center of the p53 protein controls its ability
  to regulate transcription of genes necessary for either cell division or
- cell death according to the organsiams needs.
- It is mutations of the gene of the p53 protein here which eventually lead
- to cancer formations via uncontrolled transcription genes controlling cell
- proliferation.
+ cell death according to the organisms needs.
+ It is mutations of the gene of the p53 protein is a well researched path
+ in which eventually lead to cancer formations via uncontrolled transcription
+ genes controlling cell proliferation.
  
 \end_layout
 
@@ -201,7 +210,15 @@ status open
 
 \begin_layout Plain Layout
 Illustration showing the progression of classification types between normal
- cells and cancer.
+ cells and cancer 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "noauthor_definition_2011-1"
+literal "false"
+
+\end_inset
+
+.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -280,6 +297,7 @@ status open
 \begin_inset Graphics
 	filename figures/desmoplasia.pdf
 	scale 30
+	rotateOrigin center
 
 \end_inset
 
@@ -292,8 +310,8 @@ The left image shows an example of an invading epithelial cancer.
  arrows, shows a thick collection of inflammatory cells.
  Above that is an extremely thick hyperplasia of epithelium.
  The basement membrane, which remained fully intact to the left of the inflamed
- region, has been fully broken down.
- Beneath the inflammatory cells is what appears to be a region of desmoplasia.
+ region, appears to be fully broken down in the highlighted area and marks
+ a region of desmoplasia.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -346,7 +364,7 @@ noprefix "false"
 \end_inset
 
  shows an image taken by a light microscope where the desmoplasia and the
- inflamatory respose can be clearly seen as well as a rupture of the basement
+ inflammatory response can be clearly seen as well as a rupture of the basement
  membrane.
 \end_layout
 
@@ -362,15 +380,15 @@ The basement membrane is an important structural feature when talking about
 \end_layout
 
 \begin_layout Standard
-The basement layer describes what you see using a light microscope while
- the basal lamina and the reticular lamina, two separate parts of the basement
- layer, can be seen using an electron microscope.
+The basement layer describes what is seen while using a light microscope
+ and the basal lamina and the reticular lamina, two separate parts of the
+ basement layer, can be seen using an electron microscope.
  
 \end_layout
 
 \begin_layout Standard
 Cancers will uncontrollably replicate and push against the basement membrane
- until the developing tumor finally ruptures through.
+ until the developing tumor finally ruptures through it.
  The three physiological responses mentioned above are meant to prevent
  and prepare for that moment.
  
@@ -394,6 +412,7 @@ status open
 \begin_inset Graphics
 	filename figures/oral_cancer.png
 	scale 40
+	rotateOrigin center
 
 \end_inset
 
@@ -477,15 +496,11 @@ Sometimes we could have many of these markers without the basement membrane
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "bib/bib"
-options "bibtotoc,plain"
+bibfiles "bib/nucleai"
+options "plain"
 
 \end_inset
 
